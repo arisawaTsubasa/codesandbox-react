@@ -4,6 +4,7 @@ import { InputTodo } from "./components/InputTodo";
 import { IncompleteTodos } from "./components/IncompleteTodos";
 import { CompleteTodos } from "./components/CompleteTodos";
 
+// 追加の処理
 export const App = () => {
   const [todoText, setTodoText] = useState("");
   const [incompleteTodos, setIncompleteTodos] = useState([]);
